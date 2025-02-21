@@ -1,0 +1,52 @@
+body{
+  background-color: aliceblue;
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  background-color: bisque;
+  text-align: center;
+  padding: 5px;
+}
+
+nav{
+  background-color: antiquewhite;
+  padding: 5px;
+}
+
+nav ul{
+  display: flex;
+  list-style: none;
+}
+
+nav ul li{
+  padding: 5px;
+}
+
+nav ul li a{
+  text-decoration: none;
+}
+
+nav ul li a:hover{
+  background-color: aqua;
+  padding: 2px;
+}
+
+section{
+  text-align: center;
+  height: 100vh;
+}
+
+section h1{
+  margin-left: 20%;
+  margin-right: 20%;
+  border: 2px solid antiquewhite;
+  border-radius: 30%;
+}
+
+footer{
+  background-color: aliceblue;
+  text-align: center;
+  padding: 20px;
+}
