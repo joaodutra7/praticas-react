@@ -4,7 +4,6 @@ import { TaskProvider } from './context/TaskContext'
 import TaskManager from './component/TaskManagement'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <TaskProvider>

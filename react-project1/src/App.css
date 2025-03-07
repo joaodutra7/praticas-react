@@ -1,17 +1,21 @@
 body{
-  background-color: aliceblue;
+  background-color: #ebf7f8;
   margin: 0;
   padding: 0;
 }
 
 header{
-  background-color: bisque;
+  background-color: #49708a;
   text-align: center;
   padding: 5px;
 }
 
+header h1{
+  color: #ebf7f8;
+}
+
 nav{
-  background-color: antiquewhite;
+  background-color: #88abc2;
   padding: 5px;
 }
 
@@ -21,16 +25,19 @@ nav ul{
 }
 
 nav ul li{
+  width: 100%;
   padding: 5px;
 }
 
 nav ul li a{
   text-decoration: none;
+  color: #ebf7f8;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 nav ul li a:hover{
-  background-color: aqua;
-  padding: 2px;
+  background-color: #88abc2;
 }
 
 section{
@@ -41,12 +48,14 @@ section{
 section h1{
   margin-left: 20%;
   margin-right: 20%;
-  border: 2px solid antiquewhite;
-  border-radius: 30%;
 }
 
 footer{
-  background-color: aliceblue;
+  background-color: #49708a;
   text-align: center;
   padding: 20px;
+}
+
+footer p{
+  color: #ebf7f8;
 }
